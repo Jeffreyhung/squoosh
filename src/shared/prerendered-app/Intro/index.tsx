@@ -436,6 +436,16 @@ export default class Intro extends Component<Props, State> {
             </svg>
             <div class={style.footerPadding}>
               <footer class={style.footerItems}>
+                <p class={style.footerForkNote}>
+                  Unofficial fork of the{' '}
+                  <a
+                    class={style.footerLink}
+                    href="https://github.com/GoogleChromeLabs/squoosh"
+                  >
+                    original Squoosh
+                  </a>{' '}
+                  by Google Chrome Labs.
+                </p>
                 <a
                   class={style.footerLink}
                   href="https://github.com/GoogleChromeLabs/squoosh/blob/dev/README.md#privacy"
@@ -444,7 +454,7 @@ export default class Intro extends Component<Props, State> {
                 </a>
                 <a
                   class={style.footerLinkWithLogo}
-                  href="https://github.com/GoogleChromeLabs/squoosh"
+                  href="https://github.com/Jeffreyhung/squoosh"
                 >
                   <img src={githubLogo} alt="" width="10" height="10" />
                   Source on Github

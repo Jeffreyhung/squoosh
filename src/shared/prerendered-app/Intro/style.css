@@ -257,6 +257,14 @@
   }
 }
 
+.footer-fork-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  opacity: 0.75;
+}
+
 .footer-link {
   text-decoration: none;
   color: inherit;
